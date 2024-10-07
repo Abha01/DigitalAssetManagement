@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8052d981-1e76-4ff5-abe7-4f86bf6cf0db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/app/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/dao/AssetManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/dao/AssetManagementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/entity/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/entity/AssetAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/entity/MaintenanceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/entity/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/exception/AssetNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/util/DBConnUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/util/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/test/AssetManagementServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;195cb3ff&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2my2YoZiSyB12Y1DepohwZsxDiw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AssetManagementServiceTest.executor": "Run",
+    "JUnit.AssetManagementServiceTest.testAddAsset.executor": "Run",
+    "JUnit.AssetManagementServiceTest.testGetAllAssets.executor": "Run",
+    "JUnit.AssetManagementServiceTest.testGetAssetById.executor": "Run",
+    "JUnit.AssetManagementServiceTest.testUpdateAsset.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Hexaware_project",
+    "onboarding.tips.debug.path": "C:/Hexaware project/DigitalAssetManagement/DigitalAssetManagement/src/main/java/com/Hexaware/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Hexaware" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Hexaware project\DigitalAssetManagement\DigitalAssetManagement\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AssetManagementServiceTest">
+    <configuration name="AssetManagementServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DigitalAssetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.test.AssetManagementServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssetManagementServiceTest.testAddAsset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DigitalAssetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.test.AssetManagementServiceTest" />
+      <option name="METHOD_NAME" value="testAddAsset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssetManagementServiceTest.testGetAllAssets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DigitalAssetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.test.AssetManagementServiceTest" />
+      <option name="METHOD_NAME" value="testGetAllAssets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssetManagementServiceTest.testGetAssetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DigitalAssetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.test.AssetManagementServiceTest" />
+      <option name="METHOD_NAME" value="testGetAssetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssetManagementServiceTest.testUpdateAsset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DigitalAssetManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.test.AssetManagementServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateAsset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AssetManagementServiceTest" />
+        <item itemvalue="JUnit.AssetManagementServiceTest.testAddAsset" />
+        <item itemvalue="JUnit.AssetManagementServiceTest.testUpdateAsset" />
+        <item itemvalue="JUnit.AssetManagementServiceTest.testGetAssetById" />
+        <item itemvalue="JUnit.AssetManagementServiceTest.testGetAllAssets" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8052d981-1e76-4ff5-abe7-4f86bf6cf0db" name="Changes" comment="" />
+      <created>1728034545641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728034545641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DigitalAssetManagement$AssetManagementServiceTest.ic" NAME="AssetManagementServiceTest Coverage Results" MODIFIED="1728108125484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.hexaware.test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
