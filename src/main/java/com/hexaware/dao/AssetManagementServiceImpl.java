@@ -77,17 +77,28 @@ public class AssetManagementServiceImpl implements AssetManagementService {
     @Override
     public boolean allocateAsset(int assetId, int employeeId, String allocationDate) {
         String query = "INSERT INTO asset_allocations (asset_id, employee_id, allocation_date) VALUES (?, ?, ?)";
-        try (PreparedStatement pstmt = connection.prepareStatement(query)) {
+        String updateAssetStatusQuery = "UPDATE assets SET status = ? WHERE asset_id = ?";
+        try (PreparedStatement pstmt = connection.prepareStatement(query);
+             PreparedStatement updatePstmt = connection.prepareStatement(updateAssetStatusQuery)) {
+
+            // Insert allocation record
             pstmt.setInt(1, assetId);
             pstmt.setInt(2, employeeId);
             pstmt.setDate(3, java.sql.Date.valueOf(allocationDate));
             pstmt.executeUpdate();
+
+            // Update asset status to 'Allocated'
+            updatePstmt.setString(1, "Allocated");
+            updatePstmt.setInt(2, assetId);
+            updatePstmt.executeUpdate();
+
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
             return false;
         }
     }
+
 
     @Override
     public boolean deallocateAsset(int assetId, int employeeId, String returnDate) {
@@ -143,12 +154,16 @@ public class AssetManagementServiceImpl implements AssetManagementService {
         try (PreparedStatement pstmt = connection.prepareStatement(query)) {
             pstmt.setInt(1, reservationId);
             int rowsDeleted = pstmt.executeUpdate();
+
+            // Log the number of rows deleted
+            System.out.println("Rows deleted: " + rowsDeleted);
             return rowsDeleted > 0;
         } catch (SQLException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // Print the stack trace for debugging
             return false;
         }
     }
+
 
     @Override
     public Asset getAssetById(int assetId) {
